@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".UploadFragment">
+
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+        <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="330dp"
+                android:layout_height="56dp"
+                app:layout_anchorGravity="left|top"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:entries="@array/isler"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp" android:layout_marginTop="24dp"/>
+
+        <TextView android:layout_width="330dp"
+                  android:layout_height="50dp"
+                  android:id="@+id/tmsg"
+                  app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="32dp"
+                  android:layout_marginStart="32dp" app:layout_constraintTop_toBottomOf="@+id/spinner"
+                  android:layout_marginTop="16dp"/>
+
+        <EditText
+                android:layout_width="326dp"
+                android:layout_height="146dp"
+                android:hint="Açıklama_text"
+
+                android:gravity="start"
+                android:layout_marginTop="88dp"
+                app:layout_constraintTop_toBottomOf="@+id/spinner"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp"
+                android:id="@+id/acıklama_text"/>
+
+        <EditText
+                android:layout_width="330dp"
+                android:layout_height="65dp"
+                android:id="@+id/Adres_text"
+                android:layout_marginTop="24dp"
+                app:layout_constraintTop_toBottomOf="@+id/acıklama_text"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp"
+                android:hint="Adres"/>
+
+        <Button
+                android:id="@+id/confirm_upload"
+                android:layout_width="152dp"
+                android:layout_height="60dp"
+                android:text="Onayla"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.813" app:layout_constraintHorizontal_bias="0.498"
+                android:textColorLink="@color/bottom_nav_color" android:layout_marginTop="24dp"/>
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

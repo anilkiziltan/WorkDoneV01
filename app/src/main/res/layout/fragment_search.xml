@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<ScrollView
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 xmlns:tools="http://schemas.android.com/tools"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:layout_gravity ="fill_vertical"
+                 tools:context=".SearchFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <SearchView
+                android:id="@+id/searchBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                />
+
+
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/anıl"
+                android:layout_marginTop="51dp">
+
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:id="@+id/row1"
+                    android:clickable="true"
+            >
+
+
+
+                <ImageView
+                        android:layout_width="80dp"
+                        android:adjustViewBounds="true"
+                        android:layout_height="80dp"
+                        android:scaleType="fitXY"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/temizlik"
+                        android:maxHeight="80dp"
+                        android:maxWidth="80dp"
+                />
+                <TextView
+                        android:text="Temizlik"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:textSize="26dp"
+                >
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:id="@+id/row2"
+                    android:clickable="true"
+
+            >
+
+
+
+                <ImageView
+                        android:layout_width="80dp"
+                        android:adjustViewBounds="true"
+                        android:layout_height="80dp"
+                        android:scaleType="fitXY"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/rr"
+                        android:maxHeight="80dp"
+                        android:maxWidth="80dp"
+
+                />
+                <TextView
+                        android:text="Özel Ders"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:textSize="26dp"
+                >
+                </TextView>
+            </TableRow>
+
+
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:id="@+id/row3"
+                    android:clickable="true"
+            >
+
+
+
+                <ImageView
+                        android:layout_width="80dp"
+                        android:adjustViewBounds="true"
+                        android:layout_height="80dp"
+                        android:scaleType="fitXY"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/baby"
+                        android:maxHeight="80dp"
+                        android:maxWidth="80dp"
+
+                />
+                <TextView
+                        android:text="Bebek Bakıcılığı"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:textSize="26dp"
+                >
+                </TextView>
+            </TableRow>
+
+
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:id="@+id/row4"
+                    android:clickable="true">
+
+
+
+                <ImageView
+                        android:layout_width="80dp"
+                        android:adjustViewBounds="true"
+                        android:layout_height="80dp"
+                        android:scaleType="fitXY"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/mm"
+                        android:maxHeight="80dp"
+                        android:maxWidth="80dp"
+
+                />
+                <TextView
+                        android:text="Ev İşleri"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:textSize="26dp"
+                >
+                </TextView>
+            </TableRow>
+
+
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:id="@+id/row5"
+                    android:clickable="true">
+
+
+
+                <ImageView
+                        android:layout_width="80dp"
+                        android:adjustViewBounds="true"
+                        android:layout_height="80dp"
+                        android:scaleType="fitXY"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/foto"
+                        android:maxHeight="80dp"
+                        android:maxWidth="80dp"
+
+                />
+                <TextView
+                        android:text="Fotoğraf"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:textSize="26dp"
+                >
+                </TextView>
+            </TableRow>
+
+
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:id="@+id/row6"
+                    android:clickable="true">
+
+                <ImageView
+                        android:layout_width="80dp"
+                        android:adjustViewBounds="true"
+                        android:layout_height="80dp"
+                        android:scaleType="fitXY"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/tamir"
+                        android:maxHeight="80dp"
+                        android:maxWidth="80dp"
+
+                />
+                <TextView
+                        android:text="Tamir-Tadilat"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:textSize="26dp"
+                >
+                </TextView>
+            </TableRow>
+
+
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:id="@+id/row7"
+                    android:clickable="true">
+
+
+                <ImageView
+                        android:layout_width="80dp"
+                        android:adjustViewBounds="true"
+                        android:layout_height="80dp"
+                        android:scaleType="fitXY"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/el"
+                        android:maxHeight="80dp"
+                        android:maxWidth="80dp"
+
+                />
+                <TextView
+                        android:text="Elektrik İşleri"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:textSize="26dp"
+                >
+                </TextView>
+            </TableRow>
+
+
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:id="@+id/row8"
+                    android:clickable="true"
+            >
+
+
+
+                <ImageView
+                        android:layout_width="80dp"
+                        android:adjustViewBounds="true"
+                        android:layout_height="80dp"
+                        android:scaleType="fitXY"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/boya"
+                        android:maxHeight="80dp"
+                        android:maxWidth="80dp"
+
+                />
+                <TextView
+                        android:text="Boya-Badana"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:textSize="26dp"
+                >
+                </TextView>
+            </TableRow>
+
+
+            <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:id="@+id/row9"
+                    android:clickable="true">
+
+
+
+                <ImageView
+                        android:layout_width="80dp"
+                        android:adjustViewBounds="true"
+                        android:layout_height="80dp"
+                        android:scaleType="fitXY"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/s"
+                        android:maxHeight="80dp"
+                        android:maxWidth="80dp"
+
+                />
+                <TextView
+                        android:text="Diğer"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:textSize="26dp"
+                >
+                </TextView>
+            </TableRow>
+
+
+
+
+
+
+
+
+        </TableLayout>
+
+
+    </FrameLayout>
+
+</ScrollView>
+
+
+
+
